@@ -1,0 +1,43 @@
+* {
+    box-sizing:  border-box;
+}
+body {
+    background: linear-gradient( #2980b9, #6dd5fa, #ffffff);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+.key {
+    background-color: rgba(0, 0, 0, 0.082);
+    border: 1px solid rgb(248, 246, 246);
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline-flex;
+    padding: 30px;
+    margin: 10px;
+    font-weight: bold;
+    flex-direction: column;
+    min-width: 200px;
+    position: relative;
+    border-radius: 10%;
+    color: white;
+    letter-spacing: 1px;
+    
+    
+}
+
+.key small {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+}
