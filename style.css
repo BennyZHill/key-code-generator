@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 * {
     box-sizing:  border-box;
 }
 body {
-    background: linear-gradient( #2980b9, #6dd5fa, #ffffff);
+    background: url(images/background1.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -11,11 +16,11 @@ body {
     text-align: center;
     margin: 0;
     overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
 }
 .key {
     background-color: rgba(0, 0, 0, 0.082);
-    border: 1px solid rgb(248, 246, 246);
-    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+    
     font-size: 20px;
     display: inline-flex;
     padding: 30px;
@@ -27,7 +32,7 @@ body {
     border-radius: 10%;
     color: white;
     letter-spacing: 1px;
-    
+    backdrop-filter: blur(7px); 
     
 }
 
@@ -38,6 +43,9 @@ body {
     text-align: center;
     width: 100%;
     color: rgb(255, 255, 255);
-    font-size: 15px;
+   
+    font-size: 20px;
     text-transform: uppercase;
+    backdrop-filter: blur(4px);
+    font-weight: bold;
 }
